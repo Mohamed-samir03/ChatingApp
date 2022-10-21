@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/img_messenger_signUp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/messenger"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar_signUp"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/et_name_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:layout_margin="8dp"
+        android:inputType="text"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_email_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"
+        android:layout_margin="8dp"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/et_password_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="24sp"
+        android:textColor="@color/btn_background"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:background="@drawable/btn_background"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="30dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699852884081",
+    "project_id": "messenger-chat-fea23",
+    "storage_bucket": "messenger-chat-fea23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699852884081:android:492ef07ee553add94873d0",
+        "android_client_info": {
+          "package_name": "com.mosamir.messengerchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699852884081-6d2ap5q4qn7t8ppt8se6tvrr3f8aoj11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlXv8hXBpnAC6JTHahpy-QCwe4pGhZ7VE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699852884081-6d2ap5q4qn7t8ppt8se6tvrr3f8aoj11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
