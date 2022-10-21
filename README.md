@@ -2,7 +2,7 @@
 
 - **Android** 
 - **Kotlin**
-- **Firbase**
+- **Firebase**
    - Authentication
    - Cloud Firestore
    - Storage
